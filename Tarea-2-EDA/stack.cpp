@@ -16,10 +16,10 @@ Stack::Stack():head(nullptr) {
 
 void Stack::push(std::string val){
 	Node* node = new Node(val);
-	push_2(node);
+	push(node);
 }
 
-void Stack::push_2(Node* node){
+void Stack::push(Node* node){
 	node->setNext(head);
 	head = node;
 }

@@ -17,7 +17,7 @@ private:
 public:
 	Stack();
 	void push(std::string val);
-	void push_2(Node* node);
+	void push(Node* node);
 	void pop();
 	Node* top();
 	bool isEmpty();
