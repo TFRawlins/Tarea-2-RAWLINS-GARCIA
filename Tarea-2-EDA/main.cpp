@@ -98,3 +98,4 @@ int main(int argc, char** argv){
     cout<<stack.isEmpty()<<endl;
     return 0;
 }
+
