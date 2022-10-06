@@ -9,7 +9,9 @@ int main(int argc, char** argv){
     int error=0;
     Stack stack;
     Stack stack_aux;
-    string name ="ejemplo.html";
+    string name;
+    cout<<"Ingresar el nombre del archivo html: ";
+    cin>>name;
     ifstream file(name);
     string line;
     int len;
